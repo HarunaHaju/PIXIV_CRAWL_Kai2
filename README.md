@@ -1,5 +1,5 @@
 # PIXIV_CRAWL_Kai2
-可以获取pixiv的爬虫，项目基于 https://github.com/littleVege/pixiv_crawl 修正了部分bug，能够正常使用
+可以获取pixiv图片的爬虫，项目基于 https://github.com/littleVege/pixiv_crawl 修正了部分bug，能够正常使用
 
 # 注意事项
 请配置settings.py文件里的相关信息比如用户名和密码等等
