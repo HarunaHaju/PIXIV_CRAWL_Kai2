@@ -54,7 +54,7 @@ class PixivImagesPipeline(ImagesPipeline):
         item['image_paths'] = image_paths
         return item
     
-    #在重写这个方法前，保存为SHA1编码，不清真
+    #在重写这个方法前，保存文件名为SHA1编码，不清真，现在保存为pid
     def file_path(self, request, response=None, info=None):
         image_guid = request.url.split('/')[-1]
         return 'full/%s' % (image_guid)
