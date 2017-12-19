@@ -1,0 +1,1 @@
+scrapy crawl pixiv_daily_ranking
